@@ -1,0 +1,42 @@
+.mailing-status-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #06bee1, #808080);
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .status-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .status-indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+  }
+  
+  .status-indicator.active {
+    background-color: #4CAF50;
+    box-shadow: 0 0 10px #4CAF50;
+  }
+  
+  .status-message {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .last-checked {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+  }

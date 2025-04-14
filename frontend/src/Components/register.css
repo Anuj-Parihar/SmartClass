@@ -1,63 +1,62 @@
-/* register.css */
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    background-color: #f8f8f8;
-  }
-  
-  .register-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 95vh;
-    background-color: #f8f8f8;
-  }
-  
-  .register-form {
-    background-color: #fff;
-    padding: 2rem 3rem;
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 400px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .register-form h2 {
-    text-align: center;
-    margin-bottom: 1.5rem;
-    color: #000;
-  }
-  
-  .register-form input {
-    padding: 0.8rem 1rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 1rem;
-    transition: border-color 0.3s ease;
-  }
-  
-  .register-form input:focus {
-    border-color: #000;
-    outline: none;
-  }
-  
-  .register-form button {
-    padding: 0.9rem;
-    background-color: #000;
-    color: #fff;
-    font-size: 1rem;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .register-form button:hover {
-    background-color: #333;
-  }
-  
+
+.register-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #06bee1, #808080);
+  padding: 20px;
+}
+
+.register-form {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+.register-form h2 {
+  margin-bottom: 20px;
+  color: #06bee1;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.register-form input,
+.register-form select {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.2s ease-in-out;
+}
+
+.register-form input:focus,
+.register-form select:focus {
+  border-color: #06bee1;
+  outline: none;
+  box-shadow: 0 0 5px rgba(6, 190, 225, 0.5);
+}
+
+.register-form button {
+  background-color: #06bee1;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.register-form button:hover {
+  background-color: #039bbd;
+}
